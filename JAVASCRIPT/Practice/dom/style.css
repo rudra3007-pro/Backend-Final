@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 0 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav{
+    background-color: red;
+    padding: 60px;
+}
+
+@media(max-width:600px){
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    li{
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    nav{
+        padding: 30px;
+    }
+}

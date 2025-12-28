@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("beautiful-nature-background-sky-grass-25910988.webp");
+    background-size: 100vw 100vh;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.082);
+    width: 40vw;
+    height: 70vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+.clock {
+    height: 100%;
+    color: rgb(255 206 217);
+    -webkit-text-stroke: 2px rgb(0 0 0);
+}
+.clock1{
+    width: 55%;
+}
+.clock2{
+    width: 45%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#hrs{
+    height: 40%;
+    text-align: center;
+    font-size: 150px;
+}
+#mins{
+    height: 40%;
+    text-align: center;
+    font-size: 150px;
+}
+#colon{
+    height: 20%;
+    text-align: center;
+    font-size: 100px;
+    transform: translateY(-25px);
+
+}
+.date{
+    height: 10%;
+    font-size: 40px;
+}
+#year{
+    height: 20%;
+    font-size: 60px;
+}
+#day{
+    height: 20%;
+    font-size: 50px;
+    margin-top: -20px;
+}
+#am-pm{
+    height: 20%;
+    font-size: 80px;
+    padding-top: 30px;
+}
+#sec{
+    height: 30%;
+    font-size: 80px;
+    margin-top: 0px;
+}

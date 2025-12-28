@@ -1,0 +1,3 @@
+Ham js code likhenge jo ki wrapper layer of js recieve karegi and wo code V8 engine ke c++ modules ke saath ek server create krega.
+
+AND WO JO LAYER HAI , WAHI NODE.JS KEHLATI HAI. 
